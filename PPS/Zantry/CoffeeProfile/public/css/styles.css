@@ -1628,3 +1628,14 @@ p {
         text-align: center;
     }
 }
+
+/* Spinner Animation for Buttons */
+.animate-spin {
+    animation: spin-kf 1s linear infinite;
+    display: inline-block;
+}
+
+@keyframes spin-kf {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
