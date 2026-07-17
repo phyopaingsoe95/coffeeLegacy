@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legacy Espresso Academy | Premium Barista Training & Sensory Lab</title>
+    <meta name="description" content="Master the art and science of coffee extraction, milk texturing, and custom latte art designs with Legacy Espresso Academy.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="app-header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <img src="images/logo.jpg" alt="Legacy Espresso Academy" class="header-logo-img">
+                <span class="logo-text">LEGACY <span class="logo-accent">ESPRESSO</span> ACADEMY</span>
+            </a>
+            
+            <nav class="desktop-nav" aria-label="Main Navigation">
+                <a href="#about" class="nav-link">The Academy</a>
+                <a href="#specialties" class="nav-link">Barista Courses</a>
+                <a href="#tasting-lab" class="nav-link">Sensory Lab</a>
+                <a href="#brew-assistant" class="nav-link">Brew Guide</a>
+                <a href="#booking" class="btn btn-nav">Enroll Now</a>
+            </nav>
+
+            <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle Menu">
+                <i data-lucide="menu" id="menu-icon"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-drawer" id="mobile-drawer">
+        <nav class="mobile-nav" aria-label="Mobile Navigation">
+            <a href="#about" class="mobile-link">The Academy</a>
+            <a href="#specialties" class="mobile-link">Barista Courses</a>
+            <a href="#tasting-lab" class="mobile-link">Sensory Lab</a>
+            <a href="#brew-assistant" class="mobile-link">Brew Guide</a>
+            <a href="#booking" class="btn btn-booking-mobile">Enroll Now</a>
+        </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="about">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="badge-row">
+                    <span class="badge"><i data-lucide="award"></i> Certified Trainers</span>
+                    <span class="badge"><i data-lucide="sparkles"></i> Barista Mentorship</span>
+                </div>
+                <h1 class="hero-title">Master the Craft of <span class="text-glow">Legacy Espresso</span></h1>
+                <p class="hero-subtitle">
+                    Welcome to Legacy Espresso Academy. We guide aspiring baristas, professional competitors, and coffee enthusiasts into sensory and extraction mastery. Learn the science of roasting, brewing, and pouring perfection under advanced SCA guidance.
+                </p>
+                <div class="hero-actions">
+                    <a href="#specialties" class="btn btn-primary">Explore Courses</a>
+                    <a href="#brew-assistant" class="btn btn-secondary">Try Brew Simulator</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-num">15+</span>
+                        <span class="stat-label">SCA Programs</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num">1,800+</span>
+                        <span class="stat-label">Graduates Certified</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num">100%</span>
+                        <span class="stat-label">Hands-On Practice</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="image-wrapper-glow">
+                    <div class="glow-bg"></div>
+                    <img src="images/specialist.jpg" alt="Legacy Espresso Academy Lead Instructor" class="specialist-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Curated Coffee Specialties Section -->
+    <section class="specialties-section" id="specialties">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-sub">Barista Training Programs</span>
+                <h2 class="section-title">The Academy Syllabus</h2>
+                <div class="divider"></div>
+                <p class="section-desc">Master the science of extraction, texturing, and creative presentation. Tap each module card to view technical syllabus details.</p>
+            </div>
+
+            <div class="cards-grid">
+                <!-- Card 1 -->
+                <div class="coffee-card" tabindex="0">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="card-img-container">
+                                <img src="images/barista_male.jpg" alt="Barista pouring latte art" class="card-img">
+                                <div class="card-badge">Module 1</div>
+                            </div>
+                            <div class="card-body">
+                                <span class="coffee-origin">Basics to Pouring</span>
+                                <h3 class="coffee-name">Foundational Latte Art</h3>
+                                <div class="flavor-pills">
+                                    <span class="pill">Milk Texturing</span>
+                                    <span class="pill">Pouring Flow</span>
+                                    <span class="pill">Heart & Tulip</span>
+                                </div>
+                                <div class="card-footer">
+                                    <span class="coffee-score">SCA Certified</span>
+                                    <span class="details-prompt">Syllabus <i data-lucide="chevron-right"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <h4 class="back-title">Course Specifications</h4>
+                            <ul class="spec-list">
+                                <li><strong>Duration:</strong> 3 Sessions (6 Hours Total)</li>
+                                <li><strong>Experience Level:</strong> Beginner to Intermediate</li>
+                                <li><strong>Equipment:</strong> Commercial La Marzocco Linea</li>
+                                <li><strong>Certification:</strong> Academy Barista Foundations</li>
+                                <li><strong>Class Size:</strong> Max 4 students per cohort</li>
+                                <li><strong>Beans Used:</strong> Unlimited practice micro-lots</li>
+                            </ul>
+                            <p class="back-notes">Master milk steaming aerodynamics to achieve glossy, sweet microfoam. Develop steady hand pivots for crisp tulips and hearts.</p>
+                            <a href="#booking" class="btn btn-card">Enroll in Module 1</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="coffee-card" tabindex="0">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="card-img-container">
+                                <img src="images/latte_art.jpg" alt="Latte art tree pattern" class="card-img">
+                                <div class="card-badge">Module 2</div>
+                            </div>
+                            <div class="card-body">
+                                <span class="coffee-origin">Advanced Etching</span>
+                                <h3 class="coffee-name">Creative Latte Art</h3>
+                                <div class="flavor-pills">
+                                    <span class="pill">Tree Designs</span>
+                                    <span class="pill">Etching Tools</span>
+                                    <span class="pill">Complex Patterns</span>
+                                </div>
+                                <div class="card-footer">
+                                    <span class="coffee-score">Professional</span>
+                                    <span class="details-prompt">Syllabus <i data-lucide="chevron-right"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <h4 class="back-title">Course Specifications</h4>
+                            <ul class="spec-list">
+                                <li><strong>Duration:</strong> 2 Sessions (4 Hours Total)</li>
+                                <li><strong>Experience Level:</strong> Intermediate (Mod 1 Req.)</li>
+                                <li><strong>Equipment:</strong> Customized Slayer Espresso</li>
+                                <li><strong>Certification:</strong> Academy Advanced Artist</li>
+                                <li><strong>Class Size:</strong> Max 2 students per cohort</li>
+                                <li><strong>Includes:</strong> Elite Etching Toolset Kit</li>
+                            </ul>
+                            <p class="back-notes">Go beyond free pours. Learn advanced etching brush techniques to draw trees, swirls, and intricate cacao patterns with precision.</p>
+                            <a href="#booking" class="btn btn-card">Enroll in Module 2</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="coffee-card" tabindex="0">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="card-img-container">
+                                <img src="images/frappe.jpg" alt="Chocolate frappe beverage styling" class="card-img">
+                                <div class="card-badge">Consultancy</div>
+                            </div>
+                            <div class="card-body">
+                                <span class="coffee-origin">Café Specialties</span>
+                                <h3 class="coffee-name">Beverage Design Lab</h3>
+                                <div class="flavor-pills">
+                                    <span class="pill">Cold Frappes</span>
+                                    <span class="pill">Signature Drinks</span>
+                                    <span class="pill">Menu Chemistry</span>
+                                </div>
+                                <div class="card-footer">
+                                    <span class="coffee-score">Cafe Owners</span>
+                                    <span class="details-prompt">Syllabus <i data-lucide="chevron-right"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <h4 class="back-title">Course Specifications</h4>
+                            <ul class="spec-list">
+                                <li><strong>Duration:</strong> 1 Session (4 Hours Total)</li>
+                                <li><strong>Experience Level:</strong> Professional / Cafe Owner</li>
+                                <li><strong>Equipment:</strong> Full Specialty Drink Lab</li>
+                                <li><strong>Certification:</strong> Café Consultant Certificate</li>
+                                <li><strong>Class Size:</strong> One-on-One Private Lesson</li>
+                                <li><strong>Provided:</strong> Recipe creation template guides</li>
+                            </ul>
+                            <p class="back-notes">Learn how to create high-margin chocolate frappes, layered cold brews, signature syrup infusions, and design beautiful menu cards.</p>
+                            <a href="#booking" class="btn btn-card">Book Consultancy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tasting Lab (Interactive SVG Radar Chart) -->
+    <section class="tasting-section" id="tasting-lab">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-sub">Interactive Profiler</span>
+                <h2 class="section-title">Sensory Lab Map</h2>
+                <div class="divider"></div>
+                <p class="section-desc">Design your perfect cup. Drag the sliders to balance the flavors, and our system will identify your ideal origin.</p>
+            </div>
+
+            <div class="tasting-lab-wrapper">
+                <!-- Left: Controls -->
+                <div class="tasting-controls">
+                    <h3 class="panel-heading">Adjust Flavor Profile</h3>
+                    
+                    <div class="slider-group">
+                        <div class="slider-labels">
+                            <span class="slider-title"><i data-lucide="zap"></i> Acidity</span>
+                            <span class="slider-val" id="val-acidity">60</span>
+                        </div>
+                        <input type="range" id="slide-acidity" min="20" max="100" value="60" class="flavor-slider">
+                    </div>
+
+                    <div class="slider-group">
+                        <div class="slider-labels">
+                            <span class="slider-title"><i data-lucide="activity"></i> Body</span>
+                            <span class="slider-val" id="val-body">55</span>
+                        </div>
+                        <input type="range" id="slide-body" min="20" max="100" value="55" class="flavor-slider">
+                    </div>
+
+                    <div class="slider-group">
+                        <div class="slider-labels">
+                            <span class="slider-title"><i data-lucide="cookie"></i> Sweetness</span>
+                            <span class="slider-val" id="val-sweetness">70</span>
+                        </div>
+                        <input type="range" id="slide-sweetness" min="20" max="100" value="70" class="flavor-slider">
+                    </div>
+
+                    <div class="slider-group">
+                        <div class="slider-labels">
+                            <span class="slider-title"><i data-lucide="wind"></i> Aroma</span>
+                            <span class="slider-val" id="val-aroma">65</span>
+                        </div>
+                        <input type="range" id="slide-aroma" min="20" max="100" value="65" class="flavor-slider">
+                    </div>
+
+                    <div class="slider-group">
+                        <div class="slider-labels">
+                            <span class="slider-title"><i data-lucide="clock-3"></i> Aftertaste</span>
+                            <span class="slider-val" id="val-aftertaste">60</span>
+                        </div>
+                        <input type="range" id="slide-aftertaste" min="20" max="100" value="60" class="flavor-slider">
+                    </div>
+
+                    <button id="btn-analyze" class="btn btn-primary btn-full-width">
+                        <i data-lucide="bar-chart-2"></i> Match Coffee Profile
+                    </button>
+                </div>
+
+                <!-- Right: SVG Visualizer -->
+                <div class="tasting-visualizer">
+                    <div class="svg-container">
+                        <!-- Radar Graph SVG -->
+                        <svg viewBox="0 0 400 400" class="radar-svg" id="radar-svg">
+                            <!-- Background Circles -->
+                            <circle cx="200" cy="200" r="150" class="radar-grid-circle"></circle>
+                            <circle cx="200" cy="200" r="112.5" class="radar-grid-circle"></circle>
+                            <circle cx="200" cy="200" r="75" class="radar-grid-circle"></circle>
+                            <circle cx="200" cy="200" r="37.5" class="radar-grid-circle"></circle>
+                            
+                            <!-- Grid Lines (Axis) -->
+                            <!-- Five Axes since we have 5 dimensions -->
+                            <!-- Angle offset calculations done in code, static lines drawn below -->
+                            <line x1="200" y1="200" x2="200" y2="40" class="radar-grid-line"></line> <!-- 12 o'clock -->
+                            <line x1="200" y1="200" x2="342.6" y2="151" class="radar-grid-line"></line>
+                            <line x1="200" y1="200" x2="288" y2="321.4" class="radar-grid-line"></line>
+                            <line x1="200" y1="200" x2="112" y2="321.4" class="radar-grid-line"></line>
+                            <line x1="200" y1="200" x2="57.4" y2="151" class="radar-grid-line"></line>
+
+                            <!-- Axis Labels -->
+                            <text x="200" y="32" class="radar-label" text-anchor="middle">Acidity</text>
+                            <text x="350" y="148" class="radar-label" text-anchor="start">Body</text>
+                            <text x="296" y="338" class="radar-label" text-anchor="start">Sweetness</text>
+                            <text x="104" y="338" class="radar-label" text-anchor="end">Aroma</text>
+                            <text x="50" y="148" class="radar-label" text-anchor="end">Aftertaste</text>
+
+                            <!-- Dynamic Tasting Polygon (Will be modified by app.js) -->
+                            <polygon id="radar-polygon" points="" class="radar-poly-filled"></polygon>
+                            <!-- Secondary glow polygon for stunning visuals -->
+                            <polygon id="radar-polygon-glow" points="" class="radar-poly-glow"></polygon>
+                            
+                            <!-- Dot nodes for handles -->
+                            <circle id="node-acidity" cx="200" cy="200" r="5" class="radar-node"></circle>
+                            <circle id="node-body" cx="200" cy="200" r="5" class="radar-node"></circle>
+                            <circle id="node-sweetness" cx="200" cy="200" r="5" class="radar-node"></circle>
+                            <circle id="node-aroma" cx="200" cy="200" r="5" class="radar-node"></circle>
+                            <circle id="node-aftertaste" cx="200" cy="200" r="5" class="radar-node"></circle>
+                        </svg>
+                    </div>
+
+                    <!-- Dynamic Recommendation Panel -->
+                    <div class="rec-panel hidden" id="rec-panel">
+                        <div class="rec-header">
+                            <span class="rec-badge"><i data-lucide="sparkles"></i> Profile Recommendation</span>
+                            <h4 id="rec-bean-title">Guatemala Huehuetenango</h4>
+                        </div>
+                        <div class="rec-details">
+                            <div class="rec-meta">
+                                <span class="rec-roast" id="rec-roast-level">Medium Roast</span>
+                                <span class="rec-notes" id="rec-flavor-notes">Milk Chocolate, Red Apple</span>
+                            </div>
+                            <p class="rec-desc" id="rec-bean-desc">A perfectly balanced origin with a pleasant apple acidity.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brew Assistant Section (Real-Time Timed Animation) -->
+    <section class="brew-section" id="brew-assistant">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-sub">Brewing Simulator</span>
+                <h2 class="section-title">The Interactive Brew Companion</h2>
+                <div class="divider"></div>
+                <p class="section-desc">Follow real-time pouring instructions calibrated by our Master Trainers. Select your brewing equipment, adjust your recipe, and start the timer.</p>
+            </div>
+
+            <div class="brew-wrapper">
+                <!-- Left: Recipe Selector & Ratio Calculator -->
+                <div class="brew-recipe">
+                    <h3 class="panel-heading">Recipe Setup</h3>
+                    
+                    <div class="method-selector">
+                        <button class="method-btn active" data-method="v60">
+                            <i data-lucide="cup-water"></i>
+                            <span>V60 Pour Over</span>
+                        </button>
+                        <button class="method-btn" data-method="frenchpress">
+                            <i data-lucide="coffee"></i>
+                            <span>French Press</span>
+                        </button>
+                        <button class="method-btn" data-method="aeropress">
+                            <i data-lucide="cylinder"></i>
+                            <span>Aeropress</span>
+                        </button>
+                    </div>
+
+                    <div class="recipe-calculator">
+                        <div class="slider-group">
+                            <div class="slider-labels">
+                                <span class="slider-title">Coffee Amount</span>
+                                <span class="slider-val"><strong id="calc-coffee">20</strong> g</span>
+                            </div>
+                            <input type="range" id="slide-coffee" min="12" max="40" value="20" class="flavor-slider">
+                        </div>
+
+                        <div class="ratio-display">
+                            <div class="ratio-metric">
+                                <span class="metric-lbl">Target Water</span>
+                                <span class="metric-val" id="calc-water">320g</span>
+                            </div>
+                            <div class="ratio-divider"></div>
+                            <div class="ratio-metric">
+                                <span class="metric-lbl">Golden Ratio</span>
+                                <span class="metric-val">1 : 16</span>
+                            </div>
+                            <div class="ratio-divider"></div>
+                            <div class="ratio-metric">
+                                <span class="metric-lbl">Grind Size</span>
+                                <span class="metric-val" id="calc-grind">Medium-Coarse</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="method-brief" id="method-brief-text">
+                        The V60 highlights clean notes and bright floral acidity. Our recipe uses 3 pours: Bloom, Main Pour, and Final Drawdown. Use 94°C filtered water.
+                    </div>
+                </div>
+
+                <!-- Right: Dynamic Circular Progress & Active Steps Timer -->
+                <div class="brew-timer-card">
+                    <div class="timer-display-wrapper">
+                        <!-- SVG Ring Progress -->
+                        <svg viewBox="0 0 200 200" class="timer-svg">
+                            <circle cx="100" cy="100" r="85" class="timer-track"></circle>
+                            <circle cx="100" cy="100" r="85" class="timer-progress" id="timer-progress-ring"></circle>
+                            <circle cx="100" cy="100" r="85" class="timer-pulse" id="timer-pulse-ring"></circle>
+                        </svg>
+
+                        <!-- Timer Value Centered -->
+                        <div class="timer-metrics">
+                            <span class="timer-title-state" id="timer-step-name">READY</span>
+                            <span class="timer-digits" id="timer-digits">00:00</span>
+                            <span class="timer-action-text" id="timer-step-desc">Click Start to begin water bloom</span>
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <div class="timer-controls">
+                        <button class="btn btn-timer-icon" id="btn-timer-reset" disabled aria-label="Reset Timer">
+                            <i data-lucide="rotate-ccw"></i>
+                        </button>
+                        <button class="btn btn-timer-start" id="btn-timer-toggle">
+                            <i data-lucide="play" id="play-icon"></i> Start Brew
+                        </button>
+                    </div>
+
+                    <!-- Audio Toggle -->
+                    <div class="sound-toggle-row">
+                        <label class="toggle-switch">
+                            <input type="checkbox" id="sound-checkbox" checked>
+                            <span class="toggle-slider"></span>
+                        </label>
+                        <span class="toggle-lbl">Audible stage alarms (beeps)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Form Section -->
+    <section class="booking-section" id="booking">
+        <div class="container">
+            <div class="booking-grid">
+                <!-- Info Column -->
+                <div class="booking-info">
+                    <span class="section-sub">Course Enrollment & Admissions</span>
+                    <h2 class="section-title">Enlist in the Academy</h2>
+                    <p class="booking-info-text">
+                        Reserve your workbench at our sensory lab. Collaborate for barista certification, menu consulting, and intensive pouring sessions.
+                    </p>
+                    
+                    <ul class="booking-benefits">
+                        <li><i data-lucide="check-circle-2"></i> Custom milk texturing & latte art diagnostics</li>
+                        <li><i data-lucide="check-circle-2"></i> SCA certification curriculum exam prep</li>
+                        <li><i data-lucide="check-circle-2"></i> Dedicated grinder & workbench per station</li>
+                    </ul>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i data-lucide="mail"></i>
+                            <div>
+                                <p class="contact-lbl">Admissions Email</p>
+                                <p class="contact-val">admissions@legacyespresso.academy</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i data-lucide="map-pin"></i>
+                            <div>
+                                <p class="contact-lbl">Academy Campus</p>
+                                <p class="contact-val">Downtown Barista Hub, Portland, OR</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Form Column -->
+                <div class="booking-card">
+                    <form id="booking-form" class="booking-form" novalidate>
+                        <h3 class="form-title">Request Course Enrollment</h3>
+                        
+                        <div class="form-group-grid">
+                            <div class="form-field floating-group">
+                                <input type="text" id="form-name" required placeholder=" " class="form-input">
+                                <label for="form-name" class="floating-lbl">Full Name</label>
+                                <span class="error-msg" id="err-name">Please enter your name</span>
+                            </div>
+
+                            <div class="form-field floating-group">
+                                <input type="email" id="form-email" required placeholder=" " class="form-input">
+                                <label for="form-email" class="floating-lbl">Email Address</label>
+                                <span class="error-msg" id="err-email">Please enter a valid email</span>
+                            </div>
+                        </div>
+
+                        <div class="form-group-grid">
+                            <div class="form-field select-group">
+                                <select id="form-service" required class="form-select">
+                                    <option value="" disabled selected hidden>Select Course / Program</option>
+                                    <option value="Foundations of Latte Art">Foundations of Latte Art (Module 1)</option>
+                                    <option value="Creative Latte Art & Etching">Creative Latte Art & Etching (Module 2)</option>
+                                    <option value="Beverage Design Lab">Beverage Design Lab (Module 3)</option>
+                                </select>
+                                <span class="error-msg" id="err-service">Please select a course</span>
+                            </div>
+
+                            <div class="form-field date-group">
+                                <input type="date" id="form-date" required class="form-input">
+                                <span class="error-msg" id="err-date">Please select a future date</span>
+                            </div>
+                        </div>
+
+                        <div class="form-field textarea-group">
+                            <textarea id="form-notes" rows="4" placeholder=" " class="form-textarea"></textarea>
+                            <label for="form-notes" class="floating-lbl">Tell us about your barista experience or goals...</label>
+                        </div>
+
+                        <button type="submit" id="btn-submit-booking" class="btn btn-primary btn-full-width">
+                            <span>Submit Enrollment Request</span>
+                            <i data-lucide="arrow-right"></i>
+                        </button>
+                    </form>
+
+                    <!-- Success State -->
+                    <div id="booking-success" class="booking-success-container hidden">
+                        <div class="success-icon-ring">
+                            <i data-lucide="check" class="success-icon"></i>
+                        </div>
+                        <h3 class="success-title">Enrollment Requested</h3>
+                        <p class="success-msg" id="success-message-text">Thank you! Your request has been logged. An admissions coach will contact you within 24 hours.</p>
+                        <button id="btn-success-reset" class="btn btn-secondary">Submit New Request</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+        <div class="container footer-container">
+            <p>&copy; 2026 Legacy Espresso Academy. All rights reserved.</p>
+            <div class="footer-socials">
+                <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+                <a href="#" aria-label="YouTube"><i data-lucide="youtube"></i></a>
+                <a href="#" aria-label="Twitter"><i data-lucide="twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/app.js"></script>
+</body>
+</html>

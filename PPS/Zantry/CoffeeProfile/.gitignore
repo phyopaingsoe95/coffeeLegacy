@@ -1,0 +1,11 @@
+# Compiled binary
+server.exe
+server
+
+# Local database store
+bookings.json
+profiles.json
+
+# IDE config files
+.idea/
+.vscode/
